@@ -1,6 +1,3 @@
-import * as t from 'io-ts'
-import DateFromString from './util'
-
 export enum Queue {
     events = 'notify-events',
     notifications = 'notify-notifications'
@@ -27,17 +24,9 @@ export type NotifyMessageType = {
     updatedAt: Date
 }
 
-export const NotifyEvent = t.type({
-    code: t.string,
-    branchId: t.string,
-    userId: t.string,
-    id: t.string
-})
-
-// TODO type `status` accordingly to NotificationStatus
-export const NotifyMessage = t.type({
-    status: t.string,
-    updatedAt: DateFromString
-})
-
-export type NotifyEventType = t.TypeOf<typeof NotifyEvent>
+export type NotifyEventType = {
+    id: string
+    code: string
+    branchId: string
+    userId: string
+}
