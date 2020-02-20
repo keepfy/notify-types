@@ -1,0 +1,21 @@
+{
+  "name": "@keepfy/notify-types",
+  "version": "1.0.0",
+  "description": "A package that exports Notify types and parameter definitions",
+  "types": "./lib/index.d.ts",
+  "typescript": {
+    "definition": "./lib/index.d.ts"
+  },
+  "author": "Vinícius de F. Marques",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "rm -rf ./lib/* && yarn build",
+    "build": "tsc --incremental"
+  },
+  "devDependencies": {
+    "fp-ts": "2.3.1",
+    "io-ts": "2.1.1",
+    "typescript": "3.7.5"
+  }
+}
