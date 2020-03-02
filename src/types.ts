@@ -12,6 +12,7 @@ export enum EventCode {
     serviceOrderClosening = 'SERVICE_ORDER_CLOSENING',
     serviceOrderAssignment = 'SERVICE_ORDER_ASSIGNMENT',
     serviceOrderEmployeeHoursUpdated = 'SERVICE_ORDER_EMPLOYEE_HOURS_UPDATE',
+    serviceOrderFinalization = 'SERVICE_ORDER_FINALIZATION',
     equipmentWarrantyDue = 'EQUIPMENT_WARRANTY_DUE'
 }
 
