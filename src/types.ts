@@ -28,7 +28,7 @@ export type NotifyMessageType = {
 
 export type NotifyEventType = {
     id: string
-    code: string
+    code: EventCode
     branchId: string
     userId: string
 }
