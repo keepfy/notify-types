@@ -1,8 +1,8 @@
 # Notify Types
 
-A package that exports Notify types and parameter definitions.
+A package containing notify service types and parameter definitions.
 
 ## Install
 
-`yarn add @keepy/notify-types`
+`yarn add @keepfy/notify-types`
 
