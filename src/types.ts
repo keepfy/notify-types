@@ -32,3 +32,8 @@ export type NotifyEventType = {
     branchId: string
     userId: string
 }
+
+export type NotificationPayload = {
+    type: EventCode
+    id: string
+}
