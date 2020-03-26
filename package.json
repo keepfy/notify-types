@@ -1,6 +1,6 @@
 {
   "name": "@keepfy/notify-types",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A package that exports Notify types and parameter definitions",
   "types": "./lib/index.d.ts",
   "typescript": {
