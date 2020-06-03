@@ -4,6 +4,7 @@ import DateFromString from './util'
 export const NotifyEvent = t.type({
     code: t.string,
     branchId: t.string,
+    organizationId: t.string,
     userId: t.string,
     id: t.string
 })
